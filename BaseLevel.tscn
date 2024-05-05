@@ -98,3 +98,4 @@ path_joined = false
 transform = Transform3D(-4.37111e-08, 0, -0.999993, 0, 1, 0, 0.999993, 0, -4.37111e-08, -22, 0, 6)
 
 [node name="Base" parent="." instance=ExtResource("3_1v73c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, -6)
