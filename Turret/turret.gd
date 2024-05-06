@@ -2,6 +2,8 @@ extends Node3D
 
 @export var projectile: PackedScene
 
-func _ready():
+@onready var barrel: MeshInstance3D = $TurretBase/TurretTop/Visor/Barrel
+
+func _on_timer_timeout() -> void:
 	var shot = projectile.instantiate()
-	add_child(shot)
+	barrel.add_child(shot)
